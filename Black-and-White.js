@@ -61,8 +61,10 @@ const randomizingBotsMove = () => {
   }
   if(player1._moveValue == bot._moveValue) {
     console.log('Player 1 won!');
+    alert('Player 1 won!');
   } else {
-    console.log('Player 2 won');
+    console.log('Player 2 won!');
+    alert('Player 2 won!');
   }
 };
 
