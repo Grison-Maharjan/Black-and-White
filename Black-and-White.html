@@ -1,11 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Black & White</title>
+    <link rel="stylesheet" href="Black-and-White.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Game title starts -->
+    <div id="game-title">
+      <div id="title-box">
+        <h1 id="black-title">Black o</h1>
+        <h1 id="white-title">r White</h1>
+      </div>
+    </div>
+    <!-- Game title ends -->
+
+    <!-- Game area starts -->
+    <div id="game-area">
+      <!-- Bots area starts -->
+      <div class="bot-area">
+        <h4 id="bot-name-tag">Bot :</h4>
+        <div id="bot-color-box"></div>
+      </div>
+      <!-- Bots area ends -->
+
+      <!-- Players area starts -->
+      <div id="players-area">
+        <!-- Player-1 starts -->
+        <div class="Player-1-area">
+          <h4 id="player-1-name-tag">Player 1:</h4>
+          <div id="player-1-color-box"></div>
+          <div id="player-1-moves">
+            <button id="w-btn">W</button>
+            <button id="e-btn">E</button>
+          </div>
+        </div>
+        <!-- Player-1 ends -->
+
+        <!-- Player-2 starts -->
+        <div class="player-2-area">
+          <h4 id="player-2-name-tag">Player 2:</h4>
+          <div id="player-2-color-box"></div>
+          <div id="player-2-moves">
+            <button id="one-btn">1</button>
+            <button id="two-btn">2</button>
+          </div>
+        </div>
+        <!-- Player-2 ends -->
+      </div>
+      <!-- Players area ends -->
+    </div>
+    <!-- Reset and start button starts -->
+    <div class="switch-btn">
+      <button id="reset-btn">Reset</button>
+      <button id="start-btn">Start</button>
+    </div>
+    <!-- Reset and start button ends -->
+    <!-- Game area ends -->
+
+    <!-- Javascript linked here -->
+    <script src="Black-and-White.js"></script>
+  </body>
 </html>
